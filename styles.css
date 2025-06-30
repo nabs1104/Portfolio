@@ -1,0 +1,53 @@
+* {
+    font-family: Neue Haas Grotesk; 
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Neue Haas Grotesk;
+    src: url(fonts/NeueHaasDisplayMediu.ttf);
+}
+
+.navbar{
+    padding: 15px;
+    background-color: none;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container .mainmenu ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 17px;
+    padding: 0;
+}
+
+.container .mainmenu ul li{
+    padding: 10px 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    min-width: 1000px;
+}
+
+.main-header {
+    position: absolute;
+    align-self: flex-start;
+    font-size: 3rem;
+    color:blue;
+}
