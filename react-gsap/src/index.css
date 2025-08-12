@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}   
+
+/*navbar*/
+
+.navbar {
+    padding: 15px 20px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%
+    
+}
+
+.navbar-list {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 0.5px;
+    border-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-style: none;
+    border-radius: 19px;
+    border-width: 1px;
+    padding: 5px 20px;
+}   
+
+a.active {
+    color: red;
+    transition: color 0.2s ease-out 0.12s, background-color 0.2s ease-out 0.1s;
+    background-color: black;
+}
+
+
+
+/*contact page*/
+
+.container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200vw;
+    height: 100vh;
+    position: relative;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+    z-index: -10;
+}
+
+.card-1 {
+    top: 50%;
+    left: 30%;
+}
+
+.card-2 {
+    top: 60%;
+    left: 45%;
+}
+
+.card-3 {
+    top: 40%;
+    left: 60%;
+}
+
+.card-4 {
+    top: 70%;
+    left: 85%;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.icon {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    font-family: 'Mangiola', sans-serif;
+    font-size: 20rem;
+    color: rgb(188, 188, 188);
+    left: 40%
+}
+
+.instagram, .linkedin, .github {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    top: 50%;
+    opacity: 0.7;
+    border-style: solid;
+    border-color: rgb(74, 46, 153);
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    z-index: 20;
+}
+
+.icon-wrapper {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.instagram {
+    left: 21%;
+    top: 50%;
+}
+
+.linkedin {
+    left: 44%;
+    top: 50%;
+}
+
+.github {
+    left: 67%;
+    top: 50%;   
+}
+
+.instagram-link, .linkedin-link, .github-link {
+    padding: 0;
+    margin-right: 10px;
+}
+
+.outro {
+    height: 100vh;
+    width: 30vw;
+}
