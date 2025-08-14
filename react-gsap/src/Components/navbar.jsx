@@ -8,6 +8,7 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(useGSAP);
 
 
+
 const Navbar = () => {
   const container = useRef(null);
 
@@ -26,8 +27,8 @@ const Navbar = () => {
       y: "30px",         
       stagger: 0.02,  
     });
-
   }, []);
+
 
 
   return (

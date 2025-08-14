@@ -5,6 +5,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import React from 'react'
 
+
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -17,7 +18,10 @@ function App() {
   )
   
   return (
-    <RouterProvider router={router} />
+    <>
+      <RouterProvider router={router} />
+    </>
+    
   )
 }
 
